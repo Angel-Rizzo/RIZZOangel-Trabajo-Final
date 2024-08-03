@@ -1,0 +1,101 @@
+*{
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  z-index: 4;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+  transition: background-color 1s;
+}
+
+.menu{
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
+.li-nav{
+  list-style-type: none;
+}
+
+.li-nav:hover{
+  transform: translate(3px, 2px);
+}
+
+.link-nav{
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #eeeeee;
+  text-shadow: 1px 1px gray, 2px 3px black;
+}
+
+.link-nav:hover{
+  text-shadow:0.5px 0.5px var(--colorDark) ;
+}
+
+
+header {
+  background: url(../assets/imagenes/fondo.jpg) 50% 0 fixed;
+    background-size: auto;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tituloPal {
+  text-align: center;
+  font-weight: 400;
+  font-size: calc(3em + 18px);
+  color: #eeeeee;
+  text-shadow: 2px 2px gray, 6px 6px black;
+}
+
+main{
+  padding: 100px 20px;
+}
+
+.contenido {
+  margin: 100px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.tarjeta {
+  width: 450px;
+  height: 500px;
+  gap: 40px;
+  background-color: var(--colorLight);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-card{
+  width: 100%;
+  margin: 0px;
+}
+
+.btnlink{
+  color: #F0F5E4;
+  padding: 10px;
+  background-color: #2F3645;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 80%;
+  margin-bottom: 20px;
+}
