@@ -45,7 +45,7 @@ nav {
 
 header {
   background: url(../assets/imagenes/fondo.jpg) 50% 0 fixed;
-    background-size: auto;
+  background-size: auto;
   background-size: cover;
   height: 100vh;
   display: flex;
