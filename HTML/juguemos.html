@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
     <title>Juguemos</title>
 </head>
 <body>
     <nav>
-        <a href="/index.html">Icono</a>
-        <ul>
-            <li><a href="historia.html">Historia</a></li>
+        <a href="/index.html">
+
+            <svg width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" id="mon1" fill="#F0E9D2"></rect>
+                <rect x="50" y="10" width="50" height="25" id="mon2" fill="#495579"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2" id="tec1"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#495579" id="tec2"></polygon>
+            </svg>
+        
+        </a>
+        <ul class="menu">
+            <li class="item-menu"><a href="./HTML/historia.html" class="item-link">HISTORIA</a></li>
             
-            <li><a href="juguemos.html">Juguemos</a></li>
+            <li class="item-menu"><a href="./HTML/juguemos.html" class="item-link">JUGUEMOS</a></li>
         </ul>
     </nav>
-    <header><h1 class="tituloPal">Pagina de Juguemos</h1></header>
+    <header id="header-3"><h1 class="tituloPal">Pagina de Juguemos</h1></header>
     <main>
         <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
         <section>
