@@ -8,7 +8,7 @@
     <title>Proyecto Final - Historia</title>
 </head>
 <body>
-    <nav>
+    <nav class="">
         <a href="/index.html">
 
             <svg width="200" height="80">
@@ -20,9 +20,9 @@
         
         </a>
         <ul class="menu">
-            <li class="item-menu"><a href="./HTML/historia.html" class="item-link">HISTORIA</a></li>
+            <li class="item-menu"><a href="../HTML/historia.html" class="item-link">HISTORIA</a></li>
             
-            <li class="item-menu"><a href="./HTML/juguemos.html" class="item-link">JUGUEMOS</a></li>
+            <li class="item-menu"><a href="../HTML/juguemos.html" class="item-link">JUGUEMOS</a></li>
         </ul>
     </nav>
     <header id="header-2" ><h1 class="fondo-azul titulo-blanco">HISTORIA DE LA PROGRAMACION</h1></header>
@@ -66,26 +66,37 @@
                         Esto dio el puntapie a que se sigan perfeccionando los lenguajes hasta llegar al os lenguajes de hoy en dia.</p>
                 </div>
     </div>
-    <article>
-            <h2>Un video</h2>
-            <video width="100%" poster="/assets/imagenes/img-video.jpg">
-                <source src="/assets/video/historia-Comp.ogv" type="video/ogv">
-                <source src="/assets/video/historia-Comp.mp4" type="video/mp4">
-            </video>
-            <div class="barra">
-                <div class="botonera">
-                    <button id="play" class="controlVideo">
-                        <img src="/assets/imagenes/play.svg">
-                    </button>
-                    
-                    <button id="pausa" class="controlVideo">
-                        <img src="/assets/imagenes/pausa.svg">
-                    </button>
-                </div>
-                <p id="showTime">TimeLine</p>
-            </div>
-    </article>
     </main>
-    <object data="/HTML/footer.html" type="text/html"></object>
+    <article class="contenedorVideo">
+        <h2>Un video</h2>
+        <section class="container">
+        <video width="100%" poster="../assets/imagenes/img-video.jpg">
+            <source src="../assets/video/historia-Comp.ogv" type="video/ogv">
+            <source src="../assets/video/historia-Comp.mp4" type="video/mp4">
+        </video>
+        <div class="barra">
+            <div class="botonera">
+                <button id="play" class="botonesVideo">
+                    <img src="../assets/imagenes/play.svg" alt="Boton play video">
+                </button>
+                
+                <button id="pausa" class="botonesVideo">
+                    <img src="../assets/imagenes/pausa.svg" alt="Boton pausa video">
+                </button>
+            </div>
+            <p id="showTime">TimeLine</p>
+        </div>
+        </section>
+    </article>
+    
+    <footer>
+        <div class="footer-left">
+            <img class="logo" src="../assets/imagenes/logo.png" alt="logo">
+                <h3 class="titulo-blanco titulo-foot">PROGRAMACION <br> E <br> HISTORIA </h3>
+            </div>
+               <div>Sitio con fines educativos - Creado por Rizzo Angel</div>
+    </footer>
 </body>
+<script src="../JS/script.js"></script>
+<script src="../JS/scriptHis.js"></script>
 </html>

@@ -30,12 +30,12 @@ nav{
     align-items: center;
     width: 100%;
     padding: 40px;
-    transition: background-color 1s;
+    transition: background-color 1s ease;
 }
 .fondoNav{
     background-color: var(--colorLight);
-
 }
+
 .fondoNav>ul>li>a{
     color: var(--colorDark);
     text-shadow: 1px 1px white, 2px 3px gray;
@@ -332,8 +332,17 @@ footer{
     background-color: var(--colorDark);
     width: 70%;
 }
+.botonesVideo {
+    box-shadow: 2px 2px grey;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: var(--colorLight);
+    color: var(--colorDark);
+    font-weight: 300;
+    border: 1px solid var(--colorDark);
+  }
 
-#play,#pause{
+#play,#pausa{
    width: 80px;
 }
 
