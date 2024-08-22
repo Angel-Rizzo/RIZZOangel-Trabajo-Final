@@ -96,7 +96,7 @@ main{
 animation: part_2 ease-in 5s  ;
 animation-iteration-count:1 ;
 }
-line.cod{
+.cod{
     animation-name: showCode;
     animation-delay: 2s;
     animation-duration: 2s;
@@ -147,6 +147,7 @@ line.cod{
     }
     to{
         stroke: green;
+
     }
     
 }
@@ -197,49 +198,50 @@ h2{
     font-size:calc(2em + 18px) ; 
     font-weight: 500;
     text-align: center;
-    color: var(--colorDark)
+    color: var(--colorDark);
+    margin-bottom: 30px;
 }
 .titulo-blanco{
- text-align: center;
+    text-align: center;
 }
 
 .cont-padre{
     margin: 100px 0px;
- width: 100%;
- display: flex;
- justify-content: space-evenly;
- gap: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 .card{
- width: 450px;
- height: 500px;
- gap: 40px;
- background-color: var(--colorLight);
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- align-items: center;
+    width: 450px;
+    height: 500px;
+    gap: 40px;
+    background-color: var(--colorLight);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .desc-card{
-width: 90%;
-text-align: center;
-height: 30px;
-color:#181D31;
+    width: 90%;
+    text-align: center;
+    height: 30px;
+    color:#181D31;
 }
 
 .img-card{
- width: 100%;
- margin: 0px;
+    width: 100%;
+    margin: 0px;
 
 }
 
 .boton-ver{
     padding: 10px ;
-   background-color: var(--colorDark);
-   text-align: center;
-   text-transform: uppercase;
+    background-color: var(--colorDark);
+    text-align: center;
+    text-transform: uppercase;
     text-decoration: none;
     width: 80%;
     margin-bottom: 20px;
@@ -265,11 +267,10 @@ footer{
 }
 
 .footer-left{
- display: flex;
- justify-content: space-between;
- width:300px;
- height: 60px;
- 
+    display: flex;
+    justify-content: space-between;
+    width:300px;
+    height: 60px;
 }
 
 .titulo-foot{
@@ -293,8 +294,6 @@ footer{
 .card-text-section{
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    justify-content: space-between;
     align-items: center;
     width: 80%;
 }
@@ -303,6 +302,8 @@ footer{
 }
 .text-hist{
     color: var(--colorDark);
+    width: 80%;
+    padding-bottom: 5px;
 }
 
 /* ---------- video ------------*/
@@ -363,19 +364,19 @@ footer{
 
 
 .card-prod{
- width: 250px;
- height: 480px;
+    width: 250px;
+    height: 480px;
 }
 .titulo-prod{
- font-size: 20px;
+    font-size: 20px;
 }
 
 .img-prod{
- height: 221px;
+    height: 221px;
 }
 
 
-/* ----------     ponerAPrueba     ------------*/
+/* ----------     Juego de historia     ------------*/
 .juego{
     display: flex;
     flex-direction: column;
